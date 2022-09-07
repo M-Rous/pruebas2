@@ -1,0 +1,103 @@
+body {
+    /* */
+    margin: 0;  
+    padding-top: 800px;
+    text-align: center;
+}
+/* clase de la imagen  */
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    /* */
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    /* tituo 1 de la pagina */
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#nombre {
+    /* id de la etiqueta nombre  */
+    font-size: 50px;
+    font-family:  'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative',cursive;
+    padding: 50px;
+}
+
+.línea {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu
+{
+    list-style: none; 
+    position: fixed;/*position: fixed: para que quede fijo y visible todo el tiempo mientras se
+    desplaza hacia abajo en el sitio web.*/
+    top: 0px;
+    right:30px;
+    z-index:10;
+    width: 100%;/*width: 100%: para que el menú abarque toda la pantalla.*/
+    cursor:pointer;
+    margin-top: 0px; /*margin-top: 0px: para que la barra del navegador comience desde la parte
+    superior sin ningún margen.*/
+    
+}
+.links{
+    display: inline;display: /*inline; esto ayudará a que todos los enlaces estén en la misma línea*/
+    padding-left:33px;/* padding-left: 33px; padding-right: 25px; esto va a agregar relleno al
+    elemento*/
+    padding-right: 25px;
+    font-family: fantasy;/*font-family: fantasy establecerá el tipo de letra*/
+    font-size: 20px;/*font-size: 20px esto va a incrementar el tamaño de la letra*/
+}
+.links:hover{
+    font-size: 25px;/* font-size:25px: cuando el cursor pase sobre el elemento, el tamaño de la
+    letra va a incrementar.*/
+    text-decoration: underline;/* text-decoration:underline va a subrayar sólo cuando el cursor pase sobre él.*/
+}
+
+#contact{
+    background: lightgray;
+
+}
+.enlaces{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
